@@ -5,5 +5,5 @@ const driver = {
 }
 
 function updateDriverWithKeyAndValue() {
-
+  driver.name = "joe";
 }
