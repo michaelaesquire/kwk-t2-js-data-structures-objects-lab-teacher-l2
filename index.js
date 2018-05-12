@@ -18,4 +18,5 @@ function destructivelyUpdateDriverWithKeyAndValue(drive,key,value) {
 
 function deleteFromDriverByKey(drive,key) {
   delete drive[key];
+  return drive;
 }
