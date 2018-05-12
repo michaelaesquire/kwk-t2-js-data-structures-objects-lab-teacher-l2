@@ -13,4 +13,5 @@ function updateDriverWithKeyAndValue(drive,key,value) {
 
 function destructivelyUpdateDriverWithKeyAndValue(drive,key,value) {
   drive[key]= value;
+  return drive;
 }
