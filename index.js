@@ -10,3 +10,7 @@ function updateDriverWithKeyAndValue(drive,key,value) {
 //  newDriver.address = add1;
   return newDriver;
 }
+
+destructivelyUpdateDriverWithKeyAndValue(drive,key,value) {
+  drive[key]= value;
+}
